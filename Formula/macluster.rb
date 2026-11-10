@@ -28,5 +28,9 @@ class Macluster < Formula
 
   test do
     assert_match version.to_s, shell_output("#{bin}/macluster --version")
+    aliases = %w[msub mjob mqueue mkill mtop mnode mfans]
+    aliases.each do |name|
+      assert_predicate bin/name, :symlink?
+    end
   end
 end

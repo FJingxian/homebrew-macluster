@@ -5,8 +5,8 @@
 class Macluster < Formula
   desc "Lightweight macOS cluster manager"
   homepage "https://github.com/FJingxian/macluster"
-  url "https://github.com/FJingxian/macluster/releases/download/v0.1.8/macluster-v0.1.8-macos-arm64.tar.gz"
-  sha256 "dd6eac9190b2922ae2bf441bb8753c6f96d2f2633a6ae94f82436d04160b33ee"
+  url "https://github.com/FJingxian/macluster/releases/download/v0.2.0/macluster-v0.2.0-macos-arm64.tar.gz"
+  sha256 "6946790c6c98dff8f943fa4ff8b08fd9064e17fee7768817660f14b78a03eb53"
 
   license "GPL-3.0-or-later"
 
